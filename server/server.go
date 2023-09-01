@@ -2,11 +2,12 @@ package main
 
 import (
 	"database/sql"
-	_ "github.com/go-sql-driver/mysql"
 	"log"
 	"os"
 	"vue-admin/db"
 	"vue-admin/web"
+
+	_ "github.com/go-sql-driver/mysql"
 )
 
 func main() {

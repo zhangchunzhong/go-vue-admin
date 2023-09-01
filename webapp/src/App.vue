@@ -10,15 +10,6 @@ import logoSVG from '@/assets/logo.svg';
       <img :src="logoSVG" height="150" alt="logo" />
     </div>
     <div>
-      This project is generated with
-      <b>
-        <a href="https://github.com/shpota/goxygen">goxygen</a>
-      </b>.
-      <p />The following list of technologies comes from
-      a REST API call to the Go-based back end. Find
-      and change the corresponding code in
-      <code>webapp/src/components/TechItems.vue</code>
-      and <code>server/web/app.go</code>.
       <TechItems />
     </div>
   </main>
